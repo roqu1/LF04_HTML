@@ -1,0 +1,53 @@
+body {
+    font-family: Tahoma;
+    font-size: large;
+    background-color: gray;
+    text-align: center;
+    margin-left: 7%;
+    cursor: url("../../cursor/cursor.gif"),auto; size: 20px;
+
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+a {
+    cursor: alias;
+}
+a:link {
+    color: black;
+    font-size: large;
+}
+a:visited {
+    color: aqua;
+    font-size: small;
+}
+a:active {
+    cursor: progress;
+}
+a:hover {
+    color: aquamarine;
+    font-size: x-large;
+}
+
+img {
+    font-size: x-large;
+    cursor: crosshair;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 12px rgba(255, 0, 0, 0.3);
+}
+body::-webkit-scrollbar {
+    width: 0.8em;
+}
+
+
+#ich-klick:focus {
+    color: blueviolet;
+}

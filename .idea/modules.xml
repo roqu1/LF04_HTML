@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/LF04_HTML.iml" filepath="$PROJECT_DIR$/.idea/LF04_HTML.iml" />
       <module fileurl="file://$PROJECT_DIR$/UebungErsteSeite/UebungErsteSeite.iml" filepath="$PROJECT_DIR$/UebungErsteSeite/UebungErsteSeite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UebungZweiteSeite/UebungZweiteSeite.iml" filepath="$PROJECT_DIR$/UebungZweiteSeite/UebungZweiteSeite.iml" />
     </modules>
   </component>
 </project>
