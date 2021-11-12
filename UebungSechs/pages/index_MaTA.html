@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>HTML mit Javascript - Beispiel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="monitor.css" media="screen">
+</head>
+<body onload="p_w_abfrage()">
+
+<form id="frmBrowserabfrage">
+
+  <button id="btDruecken" type="button" onClick="meldung()">
+
+    Welchen Browser nehm' ich wohl?
+
+  </button>
+
+  <output id="browsertyp">
+
+    Name des Benutzeragenten
+
+  </output>
+
+</form>
+<script>
+  let p_w_abfrage = function() {
+    let benutzerEingabe = "";
+    for (let x = 1; x <= 3 && benutzerEingabe != 5; x++) {
+      benutzerEingabe = prompt(x + " How many is 2+3?")
+    }
+
+    if (benutzerEingabe == 5) {
+      alert("True");
+      window.location.replace('https://www.bing.com/images/search?q=zoo+park&qpvt=zoo+park&tsc=ImageHoverTitle&form=IGRE&first=1');
+    } else {
+      window.document.write("That's not right!")
+    }
+
+
+    let meldung = () => {
+      let textausgabe = "Hallo du Schönheit, du verwendest den folgenden Browser:  ";
+      let ausgabe = document.getElementById("browsertyp");
+      let ua = navigator.userAgent;
+      ausgabe.value = textausgabe + ua;
+    }
+  }
+</script>
+</body>
+</html>

@@ -3,7 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/LF04_HTML.iml" filepath="$PROJECT_DIR$/.idea/LF04_HTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UebungDrei/UebungDrei.iml" filepath="$PROJECT_DIR$/UebungDrei/UebungDrei.iml" />
       <module fileurl="file://$PROJECT_DIR$/UebungErsteSeite/UebungErsteSeite.iml" filepath="$PROJECT_DIR$/UebungErsteSeite/UebungErsteSeite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UebungFunf/UebungFunf.iml" filepath="$PROJECT_DIR$/UebungFunf/UebungFunf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UebungSechs/UebungSechs.iml" filepath="$PROJECT_DIR$/UebungSechs/UebungSechs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UebungSieben/UebungSieben.iml" filepath="$PROJECT_DIR$/UebungSieben/UebungSieben.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UebungVier/UebungVier.iml" filepath="$PROJECT_DIR$/UebungVier/UebungVier.iml" />
       <module fileurl="file://$PROJECT_DIR$/UebungZweiteSeite/UebungZweiteSeite.iml" filepath="$PROJECT_DIR$/UebungZweiteSeite/UebungZweiteSeite.iml" />
     </modules>
   </component>

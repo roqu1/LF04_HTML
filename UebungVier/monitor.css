@@ -1,0 +1,119 @@
+body {
+    margin:0; padding:0; color: #9facbf;
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9FACBF;
+}
+
+img {
+    width:100%; height:auto; display:block
+}
+
+#page {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #333;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.32);
+}
+
+#header {
+    position:relative
+}
+
+#header #title {
+    position: absolute;
+    top: 4%;
+    right: 2%;
+    font-size: 290%;
+    color: #FFF;
+}
+
+#Navigation {
+    height:auto; background-color:#bccbe0; padding:1% 2%;
+    color: #bccbe0;
+    text-align: center;
+}
+
+#Navigation a {
+    display:inline-block; margin: 0 20px;
+    color: #224EA1;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#Navigation a:hover {
+color: #333333;
+}
+
+#main {
+    background-color:rgba(255,255,255,0.9); padding:2% 7%;
+}
+
+#footer {
+    padding:2% 5%;
+    color: #fff;
+}
+
+label {
+    display: inline-block;
+    float: left;
+    width: 35%;
+    padding: 5px;
+
+}
+
+.stern {
+    color: red;
+}
+
+input {
+    width: 45%;
+}
+textarea {
+    width: 45%;
+    height: 140px;
+}
+.labelzeile {
+    padding-top: 13px;
+}
+
+.form {
+    margin-left: 39%;
+    margin-top: 3%;
+    font-size: 100%;
+    width: 40%;
+    height: 20%;
+}
+
+.form:hover {
+    cursor: pointer;
+}
+
+@media (max-width:1000px) {
+#page {
+    width: 100%; margin: 0; font-size: 16px;
+}
+#header {
+    border-bottom: 10px solid #9FACBF;
+}
+#header #title {
+    font-size: 170%;
+}
+#Navigation {
+    display: none;
+}
+#main, #footer {padding: 3% 5%;}
+
+}
+
+
+@media (max-width:700px) {
+textarea {
+    width: 90%;
+}
+    label {
+       width: 75%;
+    }
+}

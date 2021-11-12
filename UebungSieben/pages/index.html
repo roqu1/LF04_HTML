@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Rechner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Corneliu Rusu">
+  <meta name="robots" content="nofollow">
+  <meta http-equiv="expires" content="3600">
+  <link rel="stylesheet" href="monitor.css">
+  <script src="script.js"></script>
+ </head>
+<body>
+<div class bodysection>
+<h1> Body-Mass-Index-Rechner</h1>
+<h2> Online-BMI-Berechnung für Erwachsene</h2>
+  <img src="../image/img.png" class="bmiimage" width="500px" height="auto">
+  <p>Einen BMI-Rechner für Kinder finden Sie hier:<a href="https://ernaehrungsstudio.nestle.de/tippstools/rechner/bmikinder.htm" target="_blank"> BMI-Rechner für Kinder</a></p>
+  <div class="border">
+    <p>Bitte geben Sie ihre Körpergröße ein:</p> </br>
+      <label for="cm">Körper größe <strong>in cm</strong>:</label>
+    <input  type="text" id="cm">
+    <p>Bitte geben Sie ihre Körpergewicht ein:</p> </br>
+    <label for="kg">Körper gewicht <strong>in kg</strong>:</label>
+    <input type="text" id="kg"></br>
+    <button type="button" id="bmibutton" onclick="bmiBerechnung()">BMI Berechnen!</button>
+
+    <p>Ihr Body-Mass-Index beträgt:</p> </br>
+
+    <label for="ergebnis">BMI-Wert: </label>
+    <output id="ergebnis"></output>
+</div>
+<h3>Bedeutung des BMI-Wertes bei Erwachsenen</h3>
+  <table class="table">
+    <thead>
+    <th>BMI-Wert</th>
+    <th>Bedeutung</th>
+    </thead>
+    <tbody>
+    <tr>
+    <td>unter 18,5</td>
+      <td>Untergewicht</td>
+    </tr>
+    <tr>
+      <td>18,5-24,9</td>
+      <td>Normalgewicht</td>
+    </tr>
+    <tr>
+      <td>25-29,9</td>
+      <td>Übergewicht</td>
+    </tr>
+    <tr>
+      <td>ab 30</td>
+      <td>Adipositas</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
