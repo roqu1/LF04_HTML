@@ -1,0 +1,40 @@
+body {
+	background-color: #D6D6D6;
+	color: #000000;
+	font-family: Verdana, Calibri, Tahoma, sans-serif;
+	margin: auto 3em;
+	text-align: center;
+}
+
+form {
+	border-width: 3px;
+	border-style: solid;
+	border-color: gray;
+	padding: 2em;
+}
+
+div {
+	padding-bottom: 1em;
+}
+
+button {
+	font-size: 1.1em;
+}
+
+output {
+	font-weight: bold;
+	color: green;
+}
+
+.border {
+	text-align: center;
+	border: aqua;
+	border-radius: 42px;
+	border-style: groove;
+	margin-inline: 2%;
+}
+fieldset {
+	margin-left: 26%;
+	margin-right: 26%;
+	color: blueviolet;
+}

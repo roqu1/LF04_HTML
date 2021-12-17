@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="de" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+	  xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+	<head>
+		<link rel="stylesheet" href="../styles/myStyleScreen.css" media="screen">
+		<script src="../scripts/myScripts.js" defer></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<title>Fahrtkostenrechner </title>
+		<meta name="Author" content="Corneliu Rusu">
+	</head>
+	<body>
+	<h1>Leih-und-Fahr Fahrzeugvermietung OHG</h1> </br>
+	<h2>Fahrtkostenrechner für Tagesmiete </h2> </br>
+	<div class="pictures">
+		<img src="../content/pictures/calculator.jpg" alt="rechner">
+		<img src="../content/pictures/key.jpg" alt="schlüssel">
+	</div>
+
+	<p>Berechnen Sie hier vor der Fahrt ihre voraussichtlichen Fahrkosten für Mietdauern bis max 24 Stunden.</p>
+	<p>Information zu Mietdauern länger als 24 Stunden erhalten sie hier:<a href="/content/documents/mietgebuehren.pdf" target="_blank"> Vermietung mehr als 24 Stunden</a></p>
+
+	<div class="border">
+		<h2>Fahrkostenrechnung</h2>
+
+		<label for="km"> voraussichtlich zurückgelegte <strong>Fahrstrecke in km  </strong>
+			<input type="number" id="km">
+		</label> </br>
+
+		<label for="stunden">voraussichtliche Mietdauer in
+			<strong>Stunden  </strong>
+			<input type="number" id="stunden">
+		</label> </br> </br>
+
+		<label>gewählter <strong>Fahrzeugtyp</strong>:</label> </br> </br>
+
+		<fieldset>
+			</br>
+			<label class="radio">
+				<input type="radio" name="radio" id="pkw" checked>
+				PKW:
+			</label>
+			<label class="radio">
+			<input type="radio" id="kleintransport" name="radio">
+				Kleintransporter:
+			</label>
+
+		</fieldset> </br>
+		<button type="submit" onclick="fahrtkostenberechnung()">Fahrkostenberechnen</button> </br> </br>
+		<label for="ergebnis">voraussichltiche Fahrkosten in Euro </label>
+		<output type="text" id="ergebnis"></output>
+	</div>
+
+
+
+	</body>
+</html>
